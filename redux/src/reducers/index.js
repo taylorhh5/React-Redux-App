@@ -3,19 +3,28 @@ import {
     FETCHING_JOKE_SUCCESS,
     FETCHING_JOKE_FAILURE
   } from '../actions/index.js'
+
   
   const initialState = {
+    
+    joke:{
+        setup:null,
+        punchline:null,
 
-    joke: null,
+    },
+   
     isFetching: false,
     error: ""
+    
   };
+ 
   
   export const reducer = (state = initialState, action) => {
     switch (action.type) {
       case FETCHING_JOKE_START:
         return {
-          ...state,
+       
+    
           isFetching: true,
           error: ""
         };

@@ -8,7 +8,7 @@ export const getJoke = () => dispatch => {
     .get("https://official-joke-api.appspot.com/random_joke")
     .then(res => {
         console.log (res.data)
-       dispatch({ type: FETCHING_JOKE_SUCCESS, payload: res.data.setup });
+       dispatch({ type: FETCHING_JOKE_SUCCESS, payload: res.data });
     })
     //  .catch(err => {
     //    dispatch({ type: FETCHING_JOKE_FAILURE, payload: res.data.setup });
