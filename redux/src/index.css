@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   background:blanchedalmond;
+ 
+  background-image: url('images\aud.jpg') !important;
+  background-size: cover;
 }
 
 code {

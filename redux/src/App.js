@@ -5,7 +5,7 @@ import Jokes from './components/Jokes.js'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <h1>
         Jokes
         

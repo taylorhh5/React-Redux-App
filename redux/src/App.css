@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background: #61dafb;
+  background-image: url('images\aud.jpg') !important;
+  background-size: cover;
 }
 
 .App-logo {
@@ -33,8 +34,8 @@
   }
 }
 .parentdiv{
-  background: #61dafb;
+  
 }
 h2{
-  color:rgb(148, 5, 24);
+  color:white;
 }
